@@ -1,0 +1,201 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(248, 238, 238);
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    z-index: 1;
+}
+ul li{
+    margin: 5px;
+    color:rgb(90, 70, 54);
+}
+li a{
+    color: rgb(117, 95, 77)
+}
+a:link{
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color:snow;
+}
+.text{
+    font-family: 'Playfair Display', serif;
+}
+.smalltext{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: rgb(90, 70, 54);
+    line-height: 1.6;
+}
+.mainheader{
+    padding-left: 90px;
+    padding-top: 45px;
+    color:rgb(121, 96, 77);
+}
+.subheader{
+    padding-left: 90px;
+    color: rgb(197, 177, 140);
+}
+
+.sectionig{
+    padding-top: 50px;
+}
+.sectionsc{
+    padding-top: 50px;
+}
+.sectioncc{
+    padding-top: 23px;
+}
+.sectionc{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.whitebg{
+    background-color: white;
+}
+.scbg{
+    background-color: rgb(248, 240, 240);
+}
+.ccbg{
+    background-color: rgb(233, 240, 248);
+}
+.instapic{
+    object-fit: cover;
+    max-width: 57%;
+}
+.snappic{
+    object-fit: cover;
+    max-width: 58%;
+}
+.scpic{
+    text-align: right;
+}
+.concpic{
+    object-fit: cover;
+    max-width: 75%;
+}
+.igheader{
+    font-size: 35px;
+    color:rgb(177, 99, 109);
+}
+.scheader{
+    font-size: 35px;
+    color:rgb(102, 90, 141)
+}
+.ccheader{
+    padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
+    color:rgb(61, 74, 112)
+}
+.cheader{
+    padding-top: 30px;
+    padding-left: 200px;
+    font-size: 35px;
+    color:rgb(177, 110, 110);
+}
+.iglistheader{
+    font-size: 25px;
+    color:rgb(131, 151, 185);
+    text-align: center;
+}
+.sclistheader{
+    font-size: 25px;
+    color:rgb(131, 151, 185);
+    text-align: center;
+}
+.igpara{
+    text-align: right;
+}
+.list{
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 768px){
+    .col-1 {flex-basis: 8.33%;}
+    .col-2 {flex-basis: 16.66%;}
+    .col-3 {flex-basis: 25%;}
+    .col-4 {flex-basis: 33.33%;}
+    .col-5 {flex-basis: 41.66%;}
+    .col-6 {flex-basis: 50%;}
+    .col-7 {flex-basis: 58.33%;}
+    .col-8 {flex-basis: 66.66%;}
+    .col-9 {flex-basis: 75%;}
+    .col-10 {flex-basis: 83.33%;}
+    .col-11 {flex-basis: 91.66%;}
+    .col-12 {flex-basis: 100%;}
+    }
+    [class="col-*"]{
+        flex-basis: 100%;
+    }
+    .container{
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 600px) {
+        .igpic{
+            text-align: center;
+        }
+        .igpara{
+            text-align: center;
+            padding-top: 10px;
+        }
+        .scpic{
+            text-align: center;
+        }
+        .scpara{
+            text-align: center;
+        }
+        .mainheader{
+            text-align: center;
+            padding-left: 0;
+        }
+        .subheader{
+            text-align: center;
+            padding-left: 0;
+        }
+        .cheader{
+            text-align: center;
+            padding-left: 0px;
+        }
+        .cpic{
+            text-align: center;
+        }
+        .sclistheader{
+            padding-left: 260px;
+        }
+        .resizelist{
+            padding-left: 250px;
+        }
+        .search input{
+            margin-left: 0px;
+        }
+        
+    }
+    .search input {
+        width:65%;
+      margin-left: 200px;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      border: 1px solid snow;
+      font-family: 'Barlow', sans-serif;
+      background-color: snow;
+      padding-left: 18px;
+    }
