@@ -45,7 +45,8 @@ export function CandCItems(comparecontrast){
             const keyword = event.target.value;
             const ccfiltered = data.comparecontrast.filter(d=>{
                 for (let i = 0; i < d.items.length; i++) {
-                return d.items[i].toLowerCase().includes(keyword.toLowerCase());
+                    console.log(d.items.length);
+                    return d.items[i].toLowerCase().includes(keyword.toLowerCase());
                 }
             })
             console.log(ccfiltered);
