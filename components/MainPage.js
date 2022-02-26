@@ -1,8 +1,11 @@
 import Navbar from './Navbar.js';
 import Instagram from './Instagram.js' 
 import Snapchat from './Snapchat.js'
-import CandC, {CandCFilter} from './CandC.js'
+import CandC from './CandC.js'
+//import CandC, {CandCFilter} from './CandC.js'
 import Conclusion from './Conclusion.js'
+import { IGfilter } from './IGlist.js';
+import { SCfilter } from './SClist.js';
 
 export default function MainPage(data){
     document.querySelector('.container').innerHTML = `
@@ -14,5 +17,7 @@ export default function MainPage(data){
         ${CandC(data.comparecontrast)}
         ${Conclusion(data.conclusion)}
     `;
-    CandCFilter(data);
+    IGfilter(data.comparecontrast[0].items);
+    SCfilter(data.comparecontrast[1].items);
+
 }
