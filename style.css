@@ -148,6 +148,12 @@ body{
         margin: 0 auto;
     }
 
+@media screen and (max-width: 500px){
+        .list {flex-basis: 50%;}
+        nav ul{display: none;}
+
+}
+
     @media screen and (max-width: 600px) {
         .igpic{
             text-align: center;
@@ -184,18 +190,19 @@ body{
             padding-left: 250px;
         }
         .search input{
-            margin-left: 0px;
+            margin-right: 200px;
+            margin-left:0px;
         }
         
     }
     .search input {
         width:65%;
-      margin-left: 200px;
-      font-size: 0.9rem;
-      padding: 0.5rem;
-      border-radius: 1rem;
-      border: 1px solid snow;
-      font-family: 'Barlow', sans-serif;
-      background-color: snow;
-      padding-left: 18px;
+        margin-left: 200px;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        border: 1px solid snow;
+        font-family: 'Barlow', sans-serif;
+        background-color: snow;
+        padding-left: 18px;
     }
