@@ -6,11 +6,11 @@ export default function CandC(comparecontrast){
     return `   
     <section class="sectioncc container">
     <div class="ccbg" id="comparecontrast">
-        <h1 class="ccheader text">Compare and Contrast</h1>
+        <h1 class="ccheader text">Compare/Contrast</h1>
         <div class="search">
             <input type="search" name='comparecontrast' placeholder="Search Features...">
         </div><br>
-        <div class="row">
+        <div class="row ccheaders">
         <div class="col-6">
             <h1 class="iglistheader text"> ${comparecontrast[0].title}</h1>
         </div>
